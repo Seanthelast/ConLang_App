@@ -1,0 +1,39 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ss_button_layout"
+    android:layout_margin="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/ss_button_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Behold the Buttons!" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ss_button_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/ss_word_textbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text here"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:editable="false"
+        />
+
+    <Button
+        android:id="@+id/ss_bottom_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+</LinearLayout>
