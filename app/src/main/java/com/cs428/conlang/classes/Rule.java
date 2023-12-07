@@ -4,6 +4,11 @@ public class Rule {
     GlobalRule parentRule;
     String encodedPattern;
 
+    public Rule(GlobalRule parentRule, String encodedPattern) {
+        this.parentRule = parentRule;
+        this.encodedPattern = encodedPattern;
+    }
+
     public GlobalRule getParentRule() {
         return parentRule;
     }
