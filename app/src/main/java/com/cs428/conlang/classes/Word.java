@@ -1,4 +1,4 @@
-package com.example.buttonstest;
+package com.cs428.conlang.classes;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,6 @@ public class Word{
     private String meaning;
     private String notes;
     private String partOfSpeech;
-    //private List<Rule> variantRules; // The modified versions of the word based on some rule
 
     public Word(List<Integer> phonetics, String latinizedSpelling, String meaning, String notes, String partOfSpeech) {
         this.phonetics = phonetics;
@@ -21,6 +20,19 @@ public class Word{
         this.notes = notes;
         this.partOfSpeech = partOfSpeech;
         //this.variantRules = variantRules;
+    }
+
+    // Methods for interacting with words
+    public List<String> getWordVariants() {
+        List<String> variants = new ArrayList<>();
+
+        for (Rule rule: variantRules) {
+            GlobalRule globalRule = ((Rule) rule).getParentRule();
+            if (globalRule.isActive()) {
+                variants.add(globalRule.applyParser(this, rule.getEncodedPattern()));
+            }
+        }
+        return variants;
     }
 
     // Getters and setters for Word properties

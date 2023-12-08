@@ -22,17 +22,12 @@ public class TempDB {
             * remove this part if this is still here when we get a functioning app, as it's
             * just for testing
             */
-            List<Phonetics> phonetics = new ArrayList<Phonetics>();
-            phonetics.add(new Phonetics());
-            List<Rule> rules = new ArrayList<Rule>();
-            GlobalRule gRule1 = new GlobalRule("Rule tested", true, new Parser());
-            GlobalRule gRule2 = new GlobalRule("Rule testing", true, new Parser());
-            rules.add(new Rule("Test Pattern 1"), gRule1);
+            List<Integer> phonetics = new ArrayList<Integer>();
+            phonetics.add(1);
             Word word1 = new Word(phonetics, "test", "A test of the database",
-                    "this is just a database test", "N", rules);
-            rules.add(new Rule("Test Pattern 2"), gRule2);
+                    "this is just a database test", "N");
             Word word2 = new Word(phonetics, "test", "A test of the database",
-                    "this is just a database test", "N", rules);
+                    "this is just a database test", "N");
             instance.insert(word1);
             instance.insert(word2);
         }
