@@ -8,6 +8,9 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.cs428.conlang.R;
 
+import com.cs428.conlang.classes.fragment.DictionaryFragment;
+import com.cs428.conlang.classes.fragment.GrammarFragment;
+import com.cs428.conlang.classes.fragment.SelectedButtonFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 

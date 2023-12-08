@@ -14,7 +14,11 @@ import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-
+import com.cs428.conlang.R;
+import com.cs428.conlang.classes.Datacache;
+import com.cs428.conlang.classes.GridSpacingItemDecoration;
+import com.cs428.conlang.classes.MainActivity;
+import com.cs428.conlang.classes.adapter.SelectedButtonAdapter;
 
 
 public class SelectedButtonFragment extends Fragment implements MainActivity.View {

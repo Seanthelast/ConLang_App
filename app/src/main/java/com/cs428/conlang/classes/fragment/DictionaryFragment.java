@@ -13,7 +13,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
-import com.example.buttonstest.Word;
+import com.cs428.conlang.R;
+import com.cs428.conlang.classes.Datacache;
+import com.cs428.conlang.classes.Word;
 
 import java.util.List;
 

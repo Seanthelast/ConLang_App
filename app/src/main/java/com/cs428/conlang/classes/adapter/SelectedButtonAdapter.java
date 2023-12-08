@@ -9,6 +9,8 @@ import android.widget.EditText;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.cs428.conlang.R;
+import com.cs428.conlang.classes.Datacache;
 
 
 public class SelectedButtonAdapter extends RecyclerView.Adapter<SelectedButtonAdapter.ButtonViewHolder> {

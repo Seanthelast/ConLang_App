@@ -10,6 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.cs428.conlang.R;
+
 
 public class WordInfoFragment extends Fragment {
 

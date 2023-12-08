@@ -9,6 +9,8 @@ import android.widget.Button;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
+import com.cs428.conlang.R;
+
 
 //this class has the divisions of sounds for the sound selector.  All are added to the
 public class SoundSectionFragment extends Fragment {

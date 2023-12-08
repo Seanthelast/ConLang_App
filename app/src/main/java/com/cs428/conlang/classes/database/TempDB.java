@@ -1,8 +1,10 @@
 package com.cs428.conlang.classes.database;
 
-import com.example.buttonstest.Word;
+import com.cs428.conlang.classes.Word;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class TempDB {
