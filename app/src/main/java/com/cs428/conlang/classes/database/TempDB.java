@@ -34,14 +34,17 @@ public class TempDB {
         return instance;
     }
 
+    // Adds a word to the DB
     public void insert(Word word) {
         words.put(word.getLatinizedSpelling(), word);
     }
 
+    // Gets a word from the DB
     public Word find(String latinizedSpelling) {
         return words.get(latinizedSpelling);
     }
 
+    // Removes a word from the DB
     public void remove(String latinizedSpelling) {
         words.remove(latinizedSpelling);
     }
