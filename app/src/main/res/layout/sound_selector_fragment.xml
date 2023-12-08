@@ -1,0 +1,67 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ss_button_layout"
+    android:layout_margin="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/ss_bottom_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add More Sounds"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+    <TextView
+        android:id="@+id/ss_button_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Behold the Buttons!" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ss_button_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- LinearLayout for EditText and Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ss_word_textbox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter text here"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:editable="false"
+            />
+
+        <!-- First Button -->
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"/>
+
+        <!-- Second Button -->
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:layout_marginEnd="8dp"/>
+    </LinearLayout>
+    <!-- End of LinearLayout for EditText and Buttons -->
+
+
+
+
+</LinearLayout>

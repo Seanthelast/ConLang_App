@@ -11,8 +11,7 @@ import android.widget.EditText;
 
 import androidx.fragment.app.Fragment;
 
-import com.example.buttonstest.Datacache;
-import com.example.buttonstest.R;
+
 import com.example.buttonstest.Word;
 
 public class AddWordFragment extends Fragment{

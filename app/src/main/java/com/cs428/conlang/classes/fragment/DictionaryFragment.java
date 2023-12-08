@@ -12,8 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.buttonstest.Datacache;
-import com.example.buttonstest.R;
+
 import com.example.buttonstest.Word;
 
 import java.util.List;

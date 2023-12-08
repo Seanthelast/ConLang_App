@@ -9,8 +9,8 @@ import android.widget.Button;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.buttonstest.Datacache;
-import com.example.buttonstest.R;
+import com.cs428.conlang.R;
+import com.cs428.conlang.classes.Datacache;
 
 
 public class ButtonAdapter extends RecyclerView.Adapter<ButtonAdapter.ButtonViewHolder> {

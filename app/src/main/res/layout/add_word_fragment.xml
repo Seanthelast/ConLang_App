@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title for the first textbox -->
+    <TextView
+        android:id="@+id/add_word_label_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English Equivalent" />
+
+    <!-- First editable textbox -->
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text" />
+
+    <!-- Repeat for the rest of the textboxes and titles -->
+    <!-- Title for Textbox 2 -->
+    <TextView
+        android:id="@+id/add_word_label_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type of Speech" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select a type of speech:"
+        />
+
+
+    <!-- Title for Textbox 3 -->
+    <TextView
+        android:id="@+id/add_word_label_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Definition" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text" />
+
+    <!-- Title for Textbox 4 -->
+    <TextView
+        android:id="@+id/add_word_label_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title for Textbox 4" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text" />
+
+    <!-- Title for Textbox 5 -->
+    <TextView
+        android:id="@+id/add_word_label_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title for Textbox 5" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text" />
+
+    <!-- Button to submit -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>
