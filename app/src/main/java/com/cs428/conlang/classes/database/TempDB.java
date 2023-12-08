@@ -1,3 +1,7 @@
+package com.cs428.conlang.classes.database;
+
+import com.example.buttonstest.Word;
+
 import java.util.HashMap;
 import java.util.Map;
 

@@ -1,6 +1,5 @@
-package com.example.buttonstest;
+package com.cs428.conlang;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Word{
